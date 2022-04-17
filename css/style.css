@@ -1,2 +1,97 @@
-body {
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  margin: 0 auto;
+  border: 1px solid #c7bdbd;
+  max-width: 1190px;
+  background: url("../img/capa.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 150px;
+  text-align: center;
+  line-height: 153px;
+  text-transform: uppercase;
+  height: 220px;
+}
+
+header h1 {
+  text-indent: -999999px;
+}
+
+main {
+  margin: 0 auto;
+  border: 1px solid #c7bdbd;
+  max-width: 1190px;
+}
+
+.titleAll {
+  font-size: 24px;
+  margin: 20px;
+}
+
+.form-times {
+  margin: 20px;
+  text-align: center;
+}
+
+.form-times input[type="text"] {
+  display: block;
+  width: 98%;
+  height: 30px;
+  padding: 10px;
+  font-size: 15px;
+  border: 1px solid #c1c1c1;
+}
+
+#buttons {
+  text-align: center;
+}
+
+#criar-tarefa {
+  margin-top: 30px;
+  padding: 15px;
+  font-size: 17px;
+  background: #293b6f;
+  color: #fff;
+  cursor: pointer;
+  border: 0;
+  font-family: "Ubuntu";
+  font-weight: 700;
+}
+
+.removerButton {
+  margin-bottom: 30px;
+  padding: 15px;
+  font-size: 17px;
+  background: #e2040e;
+  color: #fff;
+  cursor: pointer;
+  border: 0;
+  font-family: "Ubuntu";
+  font-weight: 700;
+}
+
+#lista {
+  border-top: 1px solid #d6d6d6;
+  border-bottom: 1px solid #d6d6d6;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  list-style: none;
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 22px;
+  font-family: "Ubuntu";
+  font-weight: 700;
+}
+
+.completed {
+  text-decoration: line-through black;
+}
+
+.selected {
+  background-color: #dadada;
+  padding: 10px;
 }
