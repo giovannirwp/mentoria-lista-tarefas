@@ -8,9 +8,25 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <div class="container">
-
+    <header class="header">
+      <h1>Lista de tarefas</h1>
     </div>
+    <main>
+      <section>
+        <p>Clique no item para marcá-lo como completo</p>
+      </section>
+
+      <section>
+        <input type="text" id="txt-tarefa" class="input text">
+        <button type="submit" id="criar-tarefa">Adicionar</button>
+      </section>
+
+      <section>
+        <ol id="lista">
+        </ol>
+      </section>
+    </main>
+
     <script src="js/script.js"></script>
   </body>
 </html>
